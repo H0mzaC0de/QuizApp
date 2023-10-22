@@ -8,14 +8,14 @@ const questions = [
     answers:["Blue","Red","Yellow","Green"]
   },
   {
-    prompt:"Who is the greatest player of all time",
+    prompt:"Who is the greatest player of all time?",
     correctAnswer:"Messi",
-    answers:["Messi","Cristiano Ronaldo","Maradonna","Pele"]
+    answers:["Cristiano Ronaldo","Messi","Maradonna","Pele"]
   },
   {
     prompt:"What's the national animal of Australia?",
     correctAnswer:"Kangaroo",
-    answers:["Kangaroo","Lion","Zaebra","Eagle"]
+    answers:["Eagle","Lion","Zaebra","Kangaroo"]
   }
 ]
 
