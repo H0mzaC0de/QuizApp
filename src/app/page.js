@@ -45,7 +45,8 @@ export default function Home() {
     <main className='text-center h-full w-full flex flex-col items-center justify-evenly'>
       {isGameOver ? <div className='w-full h-full flex flex-col items-center justify-center'>
         <h1 className='text-[3rem] '>Congratulations on completing the quiz</h1>
-        <span className='text-[1rem]'>Your score is {score} out of {questions.length}</span>
+        <span className='text-[1.5rem] py-[10px]'>Your score is {score} out of {questions.length}</span>
+        <span className='text-[1.5rem] mt-[10px] py-[10px] px-[30px] border border-solid border-purple-600 rounded-[30px]'><a href="/">Repeat quiz</a></span>
       </div> : 
       <>
       <div className='w-[70%] bg-gray-600 border border-solid border-y-grey-500 rounded-[30px]'>
